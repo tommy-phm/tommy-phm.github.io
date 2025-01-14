@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+html{
+    color: #fafafa;
+    background-color: #060f11;          
+    scroll-behavior: smooth;      
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: San Francisco, sans-serif;                
+}
+
+p{
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    line-height: 1.5rem;
+}
+
+hr{
+    margin: 1rem 0rem;
+    color: #238a5e;
+}
+
+a{
+    color: #238a5e;
+}
+
+a:hover{
+    color: #00da91;
+}
+
+.title{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.heading-1{
+    font-size: 2rem;
+}
+
+.heading-2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.color-1{
+    color: #238a5e;
+    background-color: #122322;
+    border: 2px solid #238a5e;;
+}
+
+.color-1:hover{
+    color: #1a1a1a;
+    background-color: #238a5e;
+}
+
+.color-2{
+    color: grey;
+    background-color: #1a1a1a;
+    border: 2px solid grey;
+}
+
+.color-2:hover{
+    color: #1a1a1a;
+    background-color: grey;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease, padding-right 0.3s ease;
+    margin: 1rem;
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    transition: padding-right 0.3s ease;
+}
+
+.button span::after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: opacity 0.3s ease, right 0.3s ease;
+}
+
+.button:hover span {
+    padding-right: 20px;
+}
+
+.button:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+.group{
+    display: grid;
+    grid-gap: 1rem;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.item{
+    border: 2px solid grey;
+    border-radius: 0.5rem;
+    line-height: 0.5rem;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}

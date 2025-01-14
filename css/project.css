@@ -1,0 +1,40 @@
+body{
+    margin-top: 5rem;
+}
+
+main{
+    max-width: 60rem;
+}
+
+p{
+    line-height: 2rem;
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home img {
+    width: 5rem;
+    height: 5rem;
+    fill: white;
+    filter: brightness(0) invert(1);
+}
+
+.home {
+    margin-left: 1rem; 
+    display: flex;    
+    align-items: center;
+    text-decoration: none;
+}
+.group{
+    grid-template-columns: repeat(auto-fit, max(29rem));
+}
+
+.logo{
+    max-width: 100%; 
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+}
