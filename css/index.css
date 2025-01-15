@@ -22,12 +22,15 @@ p{
     color: darkgray;
 }
 
-
 .work-content{
     text-align: left;
     border: 2px solid grey;
     border-radius: 0.5rem;
     padding: 0rem 2rem 1rem 2rem;
+}
+
+#skill p{
+    margin: 0.5rem 0rem 1rem 0rem;
 }
 
 #work p{
@@ -67,31 +70,30 @@ section{
     grid-template-columns: repeat(auto-fit, max(7rem));
 }
 
-#contact .group{
-    grid-template-columns: repeat(auto-fit, max(13rem));
+#project .group{
+    grid-template-columns: repeat(auto-fit, max(24rem));
 }
 
-.item{
-    flex-direction: column;
-    align-items: center; 
+#contact .group{
+    grid-template-columns: repeat(auto-fit, max(11rem));
 }
 
 #contact .item{
     height: 100%;
 }
 
-#skill .logo{
+#skill img{
     padding: 1rem 1rem 0rem;
     max-width: 5rem; 
     max-height: 5rem;
 }
 
-#project .logo{
+#project img{
     max-width: 100%; 
     border-radius: 0.3rem 0.3rem 0rem 0rem;
 }
 
-#contact .logo{
+#contact img{
     padding: 1rem 1rem 0rem;
     max-width: 5rem; 
     max-height: 5rem;

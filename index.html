@@ -39,42 +39,50 @@
                 <div class="heading-2">Programming Languages</div>
                 <div class="group">
                     <div class="item">
-                        <img class="logo" src="images/bash.svg"/>
+                        <img src="images/bash.svg"/>
                         <p>Bash</p>
                     </div>         
                     <div class="item">
-                        <img class="logo" src="images/c++.svg"/>
+                        <img src="images/c++.svg"/>
                         <p>C++</p>
                     </div>
                     <div class="item">
-                        <img class="logo" src="images/java.svg"/>
+                        <img src="images/java.svg"/>
                         <p>Java</p>
                     </div>
                     <div class="item">
-                        <img class="logo" src="images/python.svg"/>
+                        <img src="images/python.svg"/>
                         <p>Python</p>
                     </div>
                     <div class="item">
-                        <img class="logo" src="images/html.svg"/>
+                        <img src="images/html.svg"/>
                         <p>HTML</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/css.svg"/>
+                        <p>CSS</p>
                     </div>
                 </div>
                 <div class="heading-2">Tools & Technologies</div>
                 <div class="group">
                     <div class="item">
-                        <img class="logo" src="images/mysql.svg"/>
+                        <img src="images/spring.svg"/>
+                        <p>Spring</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/mysql.svg"/>
                         <p>MySQL</p>
                     </div>
                     <div class="item">
-                        <img class="logo invert" src="images/github.svg"/>
+                        <img class="invert" src="images/github.svg"/>
                         <p>GitHub</p>
                     </div>
                     <div class="item">
-                        <img class="logo" src="images/docker.svg"/>
+                        <img src="images/docker.svg"/>
                         <p>Docker</p>
                     </div>
                     <div class="item">
-                        <img class="logo" src="images/linux.svg"/>
+                        <img src="images/linux.svg"/>
                         <p>Linux</p>
                     </div>
                 </div>
@@ -97,50 +105,77 @@
                         • Tutored students in C programming <br>
                         • Identified and resolved bugs in student programs
                     </p>
-                </div>
-                
+                </div> 
             </section>
             <section id="project">
                 <div class="heading-1">Projects</div>
                 <hr>
-                <div class="group">
+                <div class="group" id="project">
                     <div class="item">
-                        <img class="logo" src="images/pool.gif"/>
-                        <div class="heading-2">Pool</div>
-                        <p> Pool is a realistic pool game simulator. 
-                            The physics engine can simulate elastic collisions, and friction. 
-                            Features include online coplay, cross-platform support, API, and AI players.
-                        </p>
-                        <a href="https://github.com/tommy-phm/pool"> 
-                            <button class ="button color-2">
-                                <span>GitHub</span>
-                            </button> 
-                        </a> 
-                    </div>                 
+                        <img src="images/pool.gif"/>
+                        <div class="heading-2" >Pool</div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/C++-000.svg?logo=c%2B%2B&logoColor=%2300599C">
+                        </div>
+                            <p> Pool is a realistic pool game simulator. 
+                                The physics engine can simulate elastic collisions and friction. 
+                                Features include online coplay, cross-platform support, API, and AI players.
+                            </p>
+                            <a href="https://github.com/tommy-phm/pool"> 
+                                <button class ="button color-2">
+                                    <span>Github</span>
+                                </button> 
+                            </a>                       
+                    </div>  
                     <div class="item">
-                        <img class="logo" src="images/chat.png"/>
-                        <div class="heading-2">Chat</div>
+                        <img src="images/chat.png"/>
+                        <div class="heading-2" >Chat</div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/Java-000.svg?logo=openjdk&logoColor=%23ED8B00">
+                            <img src="https://img.shields.io/badge/Spring%20Boot-000?logo=springboot&logoColor=6DB33F">
+                            <img src="https://img.shields.io/badge/MySQL-000?logo=mysql&logoColor=4479A1">
+                            <img src="https://img.shields.io/badge/HTML-000.svg?logo=html5&logoColor=23E34F26"/>
+                            <img src="https://img.shields.io/badge/CSS-000?logo=css3&logoColor=1572B6">
+                        </div>
                         <p> 
                             Chat is an online messaging application. 
-                            Account information and messages are stored in a MySQL database. 
-                            It supports public/private channels, 2FA email verification, and light/dark mode themes.
+                            It stores data in  MySQL a database and supports public/private channels, 2FA email verification, and light/dark mode themes.
                         </p>
                         <a href="https://github.com/MKULTRA001/Chat"> 
                             <button class ="button color-2">
-                                <span>GitHub</span>
+                                <span>Github</span>
                             </button> 
                         </a> 
                     </div>  
                     <div class="item">
-                        <img class="logo" src="images/gol.gif"/>
-                        <div class="heading-2">GoL</div>
+                        <img src="images/uno.png"/>
+                        <div class="heading-2" >Uno</div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/Java-000.svg?logo=openjdk&logoColor=%23ED8B00">
+                        </div>
+                        <p>
+                            Uno is implementation of the game Uno. 
+                            It offers online multiplayer (4 players), custome username, custom port, multithreading (for game logic and network communication).
+                        </p>
+                        <a href="https://github.com/tommy-phm/uno"> 
+                            <button class ="button color-2">
+                                <span>Github</span>
+                            </button> 
+                        </a> 
+                    </div>   
+                    <div class="item">
+                        <img src="images/gol.gif"/>
+                        <div class="heading-2" >GoL</div>
+                        <div class="badge">
+                            <img src="https://img.shields.io/badge/C-000?logo=c&logoColor=00599C">
+                        </div>
                         <p>
                             Conway's Game of Life is a simulation of cellular automata. 
                             Customization options include: resolution, color, sprite size, edge type (hedge, torus, Klein bottle), and file patterns.
                         </p>
                         <a href="https://github.com/tommy-phm/gol"> 
                             <button class ="button color-2">
-                                <span>GitHub</span>
+                                <span>Github</span>
                             </button> 
                         </a> 
                     </div>      
@@ -159,19 +194,19 @@
                 <div class="group">
                     <a href="https://github.com/tommy-phm"> 
                         <div class="item color-2">
-                            <img class="logo invert" src="images/github.svg"/>
+                            <img class="invert" src="images/github.svg"/>
                             <p>tommy-phm</p>
                         </div>         
                     </a>
                     <a href="mailto:tomtphm@gmail.com"> 
                         <div class="item color-2">
-                            <img class="logo" src="images/gmail.svg"/>
+                            <img src="images/gmail.svg"/>
                             <p>tomtphm@gmail.com</p>
                         </div>        
                     </a>
                     <a href="https://www.linkedin.com/in/tommy-p"> 
                         <div class="item color-2">
-                            <img class="logo" src="images/linkin.svg"/>
+                            <img src="images/linkin.svg"/>
                             <p>tommy-p</p>
                         </div>   
                     </a>   
