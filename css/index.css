@@ -75,7 +75,7 @@ section{
 }
 
 #contact .group{
-    grid-template-columns: repeat(auto-fit, max(11rem));
+    grid-template-columns: repeat(auto-fit, max(13rem));
 }
 
 #contact .item{
@@ -89,7 +89,6 @@ section{
 }
 
 #project img{
-    max-width: 100%; 
     border-radius: 0.3rem 0.3rem 0rem 0rem;
 }
 
