@@ -118,19 +118,19 @@ section{
 
 .animate-1{
     animation: 
-    typing 1s steps(24, end) forwards,
-    blinking 0.5s 2;
+    typing 1s steps(24, end) forwards 1s,
+    blinking 0.5s 4;
 }
 
 .animate-2{
     animation: 
-    typing 1s steps(27, end) forwards 1s,
-    blinking 0.5s 10 1s;
+    typing 1s steps(27, end) forwards 2s,
+    blinking 0.5s 8 2s;
 }
 
 .animate-3{
     opacity: 0;
-    animation: fadeIn 0.5s ease-in 2s forwards;
+    animation: fadeIn 0.5s ease-in forwards 3s;
 }
 
 @keyframes fadeIn {
