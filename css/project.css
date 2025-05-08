@@ -17,7 +17,7 @@ main{
 }
 
 .group{
-    grid-template-columns: repeat(auto-fit, max(19rem));
+    grid-template-columns: repeat(auto-fit, max(29rem));
 }
 
 #project img{
