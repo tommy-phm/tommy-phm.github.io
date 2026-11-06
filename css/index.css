@@ -128,13 +128,13 @@ section{
 .text-loaded .animate-1 {
     animation:
     typing 1s steps(24, end) forwards 1s,
-    blinking 0.5s 4;
+    blinking 1s 2;
 }
 
 .text-loaded .animate-2 {
     animation:
     typing 1s steps(27, end) forwards 2s,
-    blinking 0.5s 8 2s;
+    blinking 1s 6 2s;
 }
 
 .text-loaded .animate-3 {
